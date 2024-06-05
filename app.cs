@@ -5,8 +5,12 @@ class Program
 {
     static void Main()
     {
-         int result18 = Problem18.Problem();
-        Console.WriteLine(result18);
+
+         string result17 = Problem17.Problem();
+        Console.WriteLine(result17);
+
+        // int result18 = Problem18.Problem();
+        //Console.WriteLine(result18);
 
         //int result19 = Problem19.Problem();
         //Console.WriteLine(result19);
