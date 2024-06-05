@@ -14,7 +14,13 @@ class Program
         //Boolean result22 = Problem22.Problem();
         //Console.WriteLine(result22);
 
-        Boolean result23 = Problem23.Problem();
-        Console.WriteLine(result23);
+        //Boolean result23 = Problem23.Problem();
+        //Console.WriteLine(result23);
+
+        //string result24 = Problem24.Problem();
+        //Console.WriteLine(result24);
+
+        string result25 = Problem25.Problem();
+        Console.WriteLine(result25);
     }
 }
