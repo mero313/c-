@@ -5,6 +5,12 @@ class Program
 {
     static void Main()
     {
+         int result18 = Problem18.Problem();
+        Console.WriteLine(result18);
+
+        //int result19 = Problem19.Problem();
+        //Console.WriteLine(result19);
+
         //bool result20 = Problem20.Problem();
         //Console.WriteLine(result20);
 
@@ -20,7 +26,7 @@ class Program
         //string result24 = Problem24.Problem();
         //Console.WriteLine(result24);
 
-        string result25 = Problem25.Problem();
-        Console.WriteLine(result25);
+        //string result25 = Problem25.Problem();
+        //Console.WriteLine(result25);
     }
 }
