@@ -6,8 +6,11 @@ class Program
     static void Main()
     {
 
-          Problem24_3.task24();
+
+         //Problem12_3.BubbleSort();
         
+
+          //Problem24_3.task24();
 
         //Boolean result15 = Problem15.Problem();
         //Console.WriteLine(result15);
