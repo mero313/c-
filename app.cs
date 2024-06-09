@@ -7,10 +7,16 @@ class Program
     {
 
 
-         Problem12_3.BubbleSort();
+         //Problem12_3.BubbleSort();
         
 
           //Problem24_3.task24();
+
+        Boolean result13 = Problem13.Problem();
+        Console.WriteLine(result13);
+
+        //Boolean result14 = Problem14.Problem();
+        //Console.WriteLine(result14);
 
         //Boolean result15 = Problem15.Problem();
         //Console.WriteLine(result15);
