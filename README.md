@@ -9,8 +9,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1946|[EXERCISES OF Binary search  ](1.O(log n) = log2​(128)=7 2.O(log n) = log2​(256)=8 )| [C#]
-(./)|Esay|
+|1946|[EXERCISES OF Binary search  ](1.O(log n) = log2​(128)=7 2.O(log n) = log2​(256)=8 )| [C#] |Esay|
 
 
 |1945|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [C++](./algorithms/cpp/leetcode/sumOfDigitsOfStringAfterConvert/SumOfDigitsOfStringAfterConvert.cpp)|Easy|
