@@ -7,7 +7,7 @@ class Program
     {
 
 
-         Problem12_3.BubbleSort();
+         //Problem12_3.BubbleSort();
         
 
           //Problem24_3.task24();

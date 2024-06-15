@@ -12,7 +12,7 @@
         for (int i = 0; i < strsNum; i++)
         {  
             
-           // arr[i] = Console.ReadLine();
+            arr[i] = Console.ReadLine();
         }
 
         for (int i = 0; i < strsNum-1; i++)

@@ -50,21 +50,30 @@ namespace arry_list
 
 //display a Singly Linked List.
 
-public void display_list()
-{
-    if (head == null)
-    {
-        Console.WriteLine("this list is dmpty");
-    }
-    Node current = head;
-    while (current != null)
-    {
-        Console.Write(current.Data + "->");
-        current = current.Next;
-    }
-    Console.WriteLine("null");
+//public void display_list()
+//{
+//    if (head == null)
+//    {
+//        Console.WriteLine("this list is dmpty");
+//    }
+//    Node current = head;
+//    while (current != null)
+//    {
+//        Console.Write(current.Data + "->");
+//        current = current.Next;
+//    }
+//    Console.WriteLine("null");
+//}
 
-}
+ // 2- Display Linked list in reverse
+   //public void Reverse(Node node) {
+      //if (node == null) {
+       // return;
+      //}
+      //DipslayReverse(node.next);
+      //Console.Write(node.data + " -> ");
+    //}
+
 
 
 
