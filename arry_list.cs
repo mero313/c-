@@ -196,7 +196,7 @@ public void EmptyLinkList() {
       head = null;
     }
 
-// 11. Write a  c# program that removes the node from the singly linked list at the specified index.
+// 11. Write a  c# program that removes the node from the singly linked list at the specified 
 
 
 // 12. Write a  c# program that calculates the size of a Singly Linked list.
