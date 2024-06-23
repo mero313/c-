@@ -66,14 +66,14 @@ namespace arry_list
 //}
 
 
- // 2- Display Linked list in reverse
-   //public void Reverse(Node node) {
-      //if (node == null) {
-       // return;
-      //}
-      //DipslayReverse(node.next);
-      //Console.Write(node.data + " -> ");
-    //}
+// 2- Display Linked list in reverse
+//public void Reverse(Node node) {
+//if (node == null) {
+// return;
+//}
+//DipslayReverse(node.next);
+//Console.Write(node.data + " -> ");
+//}
 
 
 
@@ -104,16 +104,17 @@ namespace arry_list
 
 // 3. Write a  c# program to create a singly linked list of n nodes and count the number of nodes.
 public int countnodes()
+{
+    Node current = head;
+    int count = 0;
+    while (current != null)
     {
-        Node current = head ;
-        int count = 0;
-        while(current != null){
-            count++;
-            current = current.next;
-        }
-        return count; 
-        
+        count++;
+        current = current.next;
     }
+    return count;
+
+}
 
 
 
@@ -126,20 +127,21 @@ public int countnodes()
 
 // 5. Write a  c# program to insert a node at the beginning of a Singly Linked List.
 
-public void insertnode(int data )
-    {
-         Node newNode =new Node(data)
+public void insertnode(int data)
+{
+    Node newNode = new Node(data)
          newNode.Next = head;
-        head=newNode
-        
+    head = newNode
+
+
     }
 
 // 6. Write a  c# program to insert a node at the end of a Singly Linked List.
 
-public void insertnodeatend( data )
+public void insertnodeatend(data )
 
-    {
-         Node newnode= new Node(data)
+{
+    Node newnode = new Node(data)
          Add(data)
 
     }
@@ -147,33 +149,38 @@ public void insertnodeatend( data )
 
 // 7. Write a  c# program to get a node in an existing singly linked list.
 
-public int GetNode(int index) {
-      if (index > CountNodes() || index < 0)
+public int GetNode(int index)
+{
+    if (index > CountNodes() || index < 0)
         return -1;
 
-      int counter = 0;
-      Node current = head;
-      while (counter < index) {
+    int counter = 0;
+    Node current = head;
+    while (counter < index)
+    {
         counter++;
         current = current.next;
-      }
-      return current.data;
     }
+    return current.data;
+}
 
 
 
 
 // 8. Write a  c# program to find the first index that matches a given element. Return -1 for no matching.
-public void gat_element(){
+public void gat_element()
+{
     Node current = head;
-     int index = 0;
-     while(current != null){
-        if(current.data == element){
+    int index = 0;
+    while (current != null)
+    {
+        if (current.data == element)
+        {
             return index;
             index++;
             current = current.next;
-     }
-     return -1
+        }
+        return -1
 
 }
 }
@@ -182,27 +189,89 @@ public void gat_element(){
 
 
 //9. Write a  c# program to check whether a single linked list is empty or not. Return true otherwise false.
-public bool isempty() {
-      if (head == null)
+public bool isempty()
+{
+    if (head == null)
         return true;
 
-      return false;
-    }
+    return false;
+}
 
 
 
 // 10. Write a  c# program to empty a singly linked list by pointing the head towards null.
-public void EmptyLinkList() {
-      head = null;
-    }
+public void EmptyLinkList()
+{
+    head = null;
+}
 
-// 11. Write a  c# program that removes the node from the singly linked list at the specified 
+// 11. Write a  c# program that removes the node from the singly linked list at the specified index
 
 
 // 12. Write a  c# program that calculates the size of a Singly Linked list.
+public int size_list()
+{
+    return countnodes;
+
+}
+
+
+
 // 13. Write a  c# program that removes the first element from a Singly Linked list.
+public void removeFirstelement()
+{
+    if (head == null)
+        return;
+    head = head.next;
+}
+
 // 14. Write a  c# program that removes the tail element from a Singly Linked list.
+public void removetailelement()
+{
+    Node current = head;
+    while (current.Next.next != null)
+    {
+        current = current.next;
+    }
+    current.Next = null
+
+
+}
+
+
 // 15. Write a  c# program to convert a Singly Linked list into an array.
+public void ConvertToArray(int[] arr)
+{
+    Node current = head;
+    for (int i = 0; current != null; i++)
+    {
+        arr[i] = current.data;
+        current = current.next;
+    }
+}
 // 16. Write a  c# program to convert a Singly Linked list into a string.
+
+public string intostring({
+    if (head == null) return "";
+
+Node current = head;
+string listintostring = "";
+while (current != null)
+{
+    listintostring += Convert.ToString(current.data) + " ";
+    current = current.next;
+}
+return listintostring;
+})
 // 17. Write a  c# program to get the index of an element in a Singly Linked list
+
 //18. Write a  c# program to check if an element is present in the Singly Linked list.
+public bool element_is_here(int element)
+{
+    if (gat_element(element) != -1)
+        return true;
+
+    return false;
+}
+
+
