@@ -1,6 +1,6 @@
 using System;
 
-namespace problems
+namespace problem
 {
     public class Problem24_3
     {
